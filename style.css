@@ -1,0 +1,36 @@
+html {
+  background-color: rgb(231, 230, 230);
+}
+
+#open-console {
+  background-color: darkgrey;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 74vw;
+  padding: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code-snippet {
+  background-color: white;
+  border: ridge;
+  word-break: break-all;
+  width: 70vw;
+  padding: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+code {
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 700px) {
+  code {
+    font-size: 1.7vw;
+  }
+}
